@@ -6,18 +6,21 @@ class FamilyMembers extends StatelessWidget {
   const FamilyMembers({super.key});
   final List<Family_Model> familyMembers = const [
     Family_Model(
+      audio: "sounds/family_members/daughter.wav",
       image: "assets/images/family_members/family_daughter.png",
       entext: "Daughter",
       jptext: "Daughter",
       color: Color.fromARGB(26, 224, 96, 11),
     ),
     Family_Model(
+      audio: "sounds/family_members/father.wav",
       image: "assets/images/family_members/family_father.png",
       entext: "Father",
       jptext: "Father",
       color: Color.fromARGB(96, 230, 13, 13),
     ),
     Family_Model(
+      audio: "sounds/family_members/father.wav",
       image: "assets/images/family_members/family_son.png",
       entext: "Son",
       jptext: "Son",

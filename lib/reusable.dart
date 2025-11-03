@@ -182,7 +182,7 @@ colorTile({Vito}) {
         Column(
           children: [
             Text(
-              Vito.centext,
+              Vito.entext,
               style: TextStyle(fontSize: 30, color: Colors.white),
             ),
             Text(
@@ -196,7 +196,7 @@ colorTile({Vito}) {
           onTap: () {
             final player = AudioPlayer();
             player.play(
-              AssetSource("assets/sounds/colors/black.wav"),
+              AssetSource(Vito.audio),
             ); // equivalent to setSource(UrlSource(url));
           },
         ),
